@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erkam Boyacioglu</title>
+  <meta name="description" content="Erkam Boyacioglu, Computer Engineering student at the University of Waterloo.">
+
+  <!-- Link Posting -->
+  <meta property="og:title" content="Erkam Boyacioglu">
+  <meta property="og:description" content="Computer Engineering @ University of Waterloo. Firmware and embedded systems.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#111611">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-text">
+        <h1>Erkam Boyacioglu</h1>
+        <p class="tagline">Computer Engineering @ University of Waterloo. Firmware & embedded systems :)</p>
+        <nav class="nav">
+          <a href="#about">about</a>
+          <span class="nav-sep">/</span>
+          <a href="#experience">experience</a>
+          <span class="nav-sep">/</span>
+          <a href="#projects">projects</a>
+          <span class="nav-sep">/</span>
+          <a href="#books">books</a>
+          <span class="nav-sep">/</span>
+          <a href="#contact">contact</a>
+        </nav>
+      </div>
+      <div class="penguin-box">
+        <img class="header-penguin" src="images/penguin.gif" alt="dancing penguin">
+        <span class="penguin-caption">my childhood</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="page">
+    <div class="layout">
+
+      <main class="main">
+
+        <section class="section" id="about">
+          <h2>About Me</h2>
+          <p>
+            Hey! I'm Erkam, a 3rd year Comp Eng student at UW. My main point of interest is
+            firmware and embedded systems. That FINALLY! moment after 2 hours of fixing a
+            simple pointer mistake is always fun. (not really)
+          </p>
+          <p>
+            Recently, I've also been getting into humanoid robots and how to build autonomous
+            systems kept running by sensors as well. There's quite a lot to learn though.
+          </p>
+          <p>
+            My favourite book series is The First Law by Joe Abercrombie! Check the section
+            below to see if we've read some of the same books! If you have any book recs or
+            want to yap about any of these PLEASE contact me.
+          </p>
+        </section>
+
+        <section class="section" id="experience">
+          <h2>Work Experience</h2>
+
+          <div class="exp-strip">
+            <div class="exp-item">
+              <img class="job-logo" src="images/nokia.svg" alt="Nokia logo">
+              <span class="exp-company">Nokia</span>
+              <span class="exp-role">Firmware Co-op</span>
+              <span class="exp-term">S26 (now)</span>
+            </div>
+
+            <div class="exp-item">
+              <img class="job-logo" src="images/ttc.svg" alt="Toronto Transit Commission logo">
+              <span class="exp-company">Toronto Transit Commission</span>
+              <span class="exp-role">Signals/Electrical Intern</span>
+              <span class="exp-term">F25</span>
+            </div>
+
+            <div class="exp-item">
+              <img class="job-logo" src="images/first.svg" alt="FIRST Robotics Competition logo">
+              <span class="exp-company">FIRST Robotics</span>
+              <span class="exp-role">Mentor Team 9525</span>
+              <span class="exp-term">F25 · volunteer</span>
+            </div>
+
+            <div class="exp-item">
+              <img class="job-logo" src="images/thirdoctet.png" alt="Third Octet logo">
+              <span class="exp-company">Third Octet</span>
+              <span class="exp-role">Data Engineering Intern</span>
+              <span class="exp-term">W25</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <h2>Projects</h2>
+
+          <div class="project">
+            <a href="#" class="project-name">Bağlama Tuner (In Progress)</a>
+            <p class="project-desc">
+              Couldn't tune this damn instrument outside with an external tuner.<br>
+              Decided to make my own jack-connected tuner instead.
+            </p>
+            <span class="project-tags">[C] [STM32] [FreeRTOS] [DSP] [Audio]</span>
+          </div>
+
+          <div class="project">
+            <a href="https://github.com/erkambo/DisplayTTC" class="project-name" target="_blank" rel="noopener">Display-TTC</a>
+            <p class="project-desc">
+              Who doesn't want Toronto's subway system hanging on their wall?<br>
+              Useful (?) art installation with LED Controllers and ESP32
+            </p>
+            <span class="project-tags">[C] [SPI] [IOT]</span>
+          </div>
+
+          <div class="project">
+            <a href="https://github.com/erkambo/TT_Whack_A_Mole_SKY" class="project-name" target="_blank" rel="noopener">Whack-A-Mole ASIC</a>
+            <p class="project-desc">
+              TinyTapeout digital IC of a carnival Whack-A-Mole game <br>
+              Meeting timing requirements was hard.
+            </p>
+            <span class="project-tags">[SystemVerilog] [ASIC]</span>
+          </div>
+
+          <div class="project">
+            <a href="https://drive.google.com/drive/folders/1IisuDQECQvtYK-EaD0oUk9ZENFJvVL59?usp=sharing" class="project-name" target="_blank" rel="noopener">Parametric Speaker</a>
+            <p class="project-desc">
+              Ultrasonic directional speaker, can only hear it from the direction it is facing.<br>
+              STM32 ADC samples straight to memory and modulates audio onto a 40kHz PWM carrier.
+            </p>
+            <span class="project-tags">[C] [STM32] [DMA] [ADC] [EasyEDA]</span>
+          </div>
+        </section>
+
+        <section class="section" id="books">
+          <h2>Books (the ones I remember)</h2>
+
+          <div class="books-sub">
+            <h3>for pleasure</h3>
+            <table class="books-table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Gentleman Bastards</td>
+                  <td>Scott Lynch</td>
+                  <td class="status-reading">reading</td>
+                </tr>
+                <tr>
+                  <td>The First Law Series</td>
+                  <td>Joe Abercrombie</td>
+                  <td class="status-read">read</td>
+                </tr>
+                <tr>
+                  <td>The Age of Madness Series</td>
+                  <td>Joe Abercrombie</td>
+                  <td class="status-read">read</td>
+                </tr>
+                <tr>
+                  <td>The Stormlight Archive</td>
+                  <td>Brandon Sanderson</td>
+                  <td class="status-read">read</td>
+                </tr>
+                <tr class="extra">
+                  <td>3 Body Problem Series</td>
+                  <td>Cixin Liu</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>Hobbit + Lord of The Rings</td>
+                  <td>J.R.R. Tolkien</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>Crime and Punishment</td>
+                  <td>Fyodor D.</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>The Black Company Series</td>
+                  <td>Glen Cook</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>The Powdermage Series</td>
+                  <td>Brian McClellan</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>The Acts of Caine Series</td>
+                  <td>Matthew Stover</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>King of Thorns Series</td>
+                  <td>Mark Lawrence</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+
+                <tr class="extra">
+                  <td>Dune (Books 1-2)</td>
+                  <td>Frank Herbert</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>The Kite Runner + Thousand Splendid Suns</td>
+                  <td>Khaled Hosseini</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>1984</td>
+                  <td>George Orwell</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+              
+                <tr class="extra">
+                  <td>Watership Down</td>
+                  <td>Richard Adams</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+              
+                <tr class="extra">
+                  <td>World War Z</td>
+                  <td>Max Brooks</td>
+                  <td class="status-read">read</td>
+                </tr>
+            
+                <tr class="extra">
+                  <td>The Alchemist</td>
+                  <td>Paulo Coelho</td>
+                  <td class="status-read">read</td>
+                </tr>
+              
+
+              </tbody>
+            </table>
+            <button class="see-more">see more ↓</button>
+          </div>
+
+          <div class="books-sub">
+            <h3>for learning</h3>
+            <table class="books-table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Making Embedded Systems</td>
+                  <td>Elecia White</td>
+                  <td class="status-reading">reading</td>
+                </tr>
+                <tr>
+                  <td>Modern C</td>
+                  <td>Jens Gustedt</td>
+                  <td class="status-reading">reading</td>
+                </tr>
+                <tr>
+                  <td>Moonwalking with Einstein</td>
+                  <td>Joshua Foer</td>
+                  <td class="status-queued">queued</td>
+                </tr>
+                <tr>
+                  <td>Algorithms to Live By</td>
+                  <td>Brian Christian</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+                <tr class="extra">
+                  <td>Atomic Habits</td>
+                  <td>James Clear</td>
+                  <td class="status-read">read</td>
+                </tr>
+
+              </tbody>
+            </table>
+            <button class="see-more">see more ↓</button>
+          </div>
+        </section>
+
+      </main>
+
+      <aside class="sidebar">
+
+        <div class="sidebar-block">
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Reading (mostly fiction)</li>
+            <li>Board Games (INIS > *)</li>
+            <li>Badminton and Volleyball (average)</li>
+            <li>Playing the Piano and Bağlama</li>
+            <li>Random Tinkering</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-block">
+          <h2>Goose
+            <svg class="goose-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <ellipse cx="10" cy="16.5" rx="8" ry="4.5" fill="#a89e8a"/>
+              <path d="M16 17 L21 15.5 L17.5 18.5 Z" fill="#4a4a44"/>
+              <path d="M14.5 15 Q14.5 9 16.5 7" stroke="#33332f" stroke-width="3.6" fill="none" stroke-linecap="round"/>
+              <circle cx="17" cy="6" r="2.8" fill="#33332f"/>
+              <path d="M19.6 5.2 L22.8 6 L19.6 6.8 Z" fill="#33332f"/>
+              <circle cx="17.7" cy="7.4" r="1.4" fill="#f5f5f5"/>
+            </svg>
+          </h2>
+          <div class="game-box">
+            <canvas id="goose-canvas" width="480" height="480"></canvas>
+            <div class="game-status">
+              <span id="goose-score">crumbs: 0</span>
+              <span id="goose-best">best: 0</span>
+            </div>
+            <form id="goose-entry" hidden>
+              <label for="goose-initials">initials:</label>
+              <input id="goose-initials" maxlength="3" size="3" autocomplete="off" placeholder="AAA">
+              <button type="submit">ok</button>
+            </form>
+            <ol id="goose-board"></ol>
+          </div>
+        </div>
+
+        <div class="sidebar-block" id="contact">
+          <h2>Contact</h2>
+          <ul class="contact-list">
+            <li><span class="contact-label">github</span> <a href="https://github.com/erkambo" target="_blank" rel="noopener">erkambo</a></li>
+            <li><span class="contact-label">linkedin</span> <a href="https://linkedin.com/in/erkambo" target="_blank" rel="noopener">erkambo</a></li>
+            <li><span class="contact-label">email</span> <a href="mailto:eboyacio@uwaterloo.ca">eboyacio@uwaterloo.ca</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-block">
+          <h2>Photo Wall</h2>
+          <div id="wall-photos"></div>
+          <div class="wall-nav">
+            <button class="wall-arrow" id="wall-prev" aria-label="older wall">&larr;</button>
+            <span id="wall-label"></span>
+            <button class="wall-arrow" id="wall-next" aria-label="newer wall">&rarr;</button>
+          </div>
+          <p class="photo-caption">updated monthly</p>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="hit-counter">your visits: <span id="hit-count">000000</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

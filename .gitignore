@@ -1,0 +1,11 @@
+# full-size phone photos — the web-ready copies live in images/wall/
+originals/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# wrangler build cache / deps
+worker/.wrangler/
+node_modules/

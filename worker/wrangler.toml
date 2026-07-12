@@ -1,0 +1,11 @@
+name = "goose"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+# only this origin may call the API from a browser
+ALLOWED_ORIGIN = "https://erkamboyacioglu.com"
+
+[[kv_namespaces]]
+binding = "GOOSE"
+id = "b70b7153ec58457fba953b1effb5c367"
