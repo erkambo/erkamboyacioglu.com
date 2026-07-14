@@ -5,6 +5,13 @@
   document.getElementById('hit-count').textContent = String(count).padStart(6, '0');
 }
 
+// Spoiler text
+{
+  document.querySelectorAll('.spoiler').forEach((el) => {
+    el.addEventListener('click', () => el.classList.toggle('revealed'));
+  });
+}
+
 // Books 
 {
   document.querySelectorAll('.books-sub').forEach((sub) => {

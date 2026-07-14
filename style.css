@@ -342,6 +342,19 @@ ul {
   margin-bottom: var(--space-xs);
 }
 
+.spoiler {
+  background: var(--text);
+  color: var(--text);
+  cursor: pointer;
+  user-select: none;
+  border-radius: 2px;
+}
+
+.spoiler.revealed {
+  background: transparent;
+  color: var(--text);
+}
+
 /* --- Game box --- */
 
 .game-box {
